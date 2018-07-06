@@ -36,7 +36,8 @@ def hit?
   case action 
   when 's'
     return_card_total
-  
+  when 'h'
+    
 end
 
 def invalid_command
