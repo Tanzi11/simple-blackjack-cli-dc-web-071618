@@ -41,6 +41,7 @@ def hit?
     card_total += another_card
     display_card_total(card_total)
     return_card_total
+  else
     
 end
 
