@@ -32,7 +32,7 @@ end
 
 def hit?
   prompt_user
-  
+  action = get_user_input
 end
 
 def invalid_command
