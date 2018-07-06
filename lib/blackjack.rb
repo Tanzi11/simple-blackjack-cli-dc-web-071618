@@ -35,7 +35,8 @@ def hit?
   action = get_user_input
   case action 
   when 's'
-    
+    return_card_total
+  
 end
 
 def invalid_command
