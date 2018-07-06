@@ -37,7 +37,7 @@ def hit?
   when 's'
     return_card_total
   when 'h'
-    
+    another_card = deal_card
 end
 
 def invalid_command
