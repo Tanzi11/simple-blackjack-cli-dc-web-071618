@@ -35,12 +35,12 @@ def hit?
   action = get_user_input
   case action 
   when 's'
-    return_card_total
+    return card_total
   when 'h'
     another_card = deal_card
     card_total += another_card
     display_card_total(card_total)
-    return_card_total
+    return card_total
   else
     invalid_command
     return card_total
