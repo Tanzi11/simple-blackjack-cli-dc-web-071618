@@ -23,7 +23,10 @@ puts "Sorry, you hit #{card_total}. Thanks for playing!
 end
 
 def initial_round
-  # code #initial_round here
+  first_card = deal_card
+  second_card = deal_card
+  card_total = first_card + second_card
+  returncard_total
 end
 
 def hit?
