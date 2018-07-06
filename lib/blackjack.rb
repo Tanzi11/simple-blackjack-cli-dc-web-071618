@@ -34,7 +34,8 @@ def hit?
   prompt_user
   action = get_user_input
   case action 
-  
+  when 's'
+    
 end
 
 def invalid_command
